@@ -1,9 +1,17 @@
 package org.perino.shakespair.model;
 
-public class Player {
-    public String name;
+import java.util.UUID;
 
-    public Player(String name) {
+public class Player {
+    public UUID identifier;
+    public String name;
+    public Integer score;
+    public Integer elo;
+
+    public Player(String name, Integer elo) {
         this.name = name;
+        this.identifier = UUID.randomUUID();
+        this.score = 0;
+        this.elo = elo;
     }
 }
