@@ -1,4 +1,4 @@
-package org.perino;
+package org.perino.shakespair;
 
 public class Main {
     public static void main(String[] args) {

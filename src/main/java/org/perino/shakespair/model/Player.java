@@ -1,4 +1,4 @@
-package org.perino.model;
+package org.perino.shakespair.model;
 
 public class Player {
     public String name;

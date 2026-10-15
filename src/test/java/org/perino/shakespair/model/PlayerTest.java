@@ -1,4 +1,4 @@
-package org.perino.model;
+package org.perino.shakespair.model;
 
 import org.junit.jupiter.api.Test;
 
